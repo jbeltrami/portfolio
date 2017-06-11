@@ -22,6 +22,10 @@ h2 {
   text-align: center;
 }
 
+p, li {
+  padding: 5px;
+}
+
 .spot-class {
     padding-top: 20px;
 }
@@ -47,6 +51,7 @@ h2 {
 
 .devicons {
   font-size: 400%;
+  align-items: center;
 }
 
 .img-hover:hover {
@@ -102,6 +107,14 @@ footer {
         margin-bottom: 30px;
     }
 }
+
+// @media(max-width: 990px) {
+//     .about-image {
+//       float: none;
+//       margin: 10px;
+//
+//     }
+// }
 
 @media(max-width:767px) {
     .img-portfolio {
